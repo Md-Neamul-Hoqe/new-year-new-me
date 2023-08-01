@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* fonts */
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* header */
+#header-section {
+    background: #FFFFFF url("./images/banner/banner2.png") top left;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    white-space: pre-line;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#header-section .contents {
+    margin-left: auto;
+    width: 50%;
+    text-align: right;
+    font-size: 1rem;
+}
+
+#header-section .contents h1 {
+    color: #151414;
+    font-size: 65px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+#header-section .contents p {
+    color: #444343;
+}
+
+#header-section .contents .contact-btn {
+    font-weight: 500;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: #F15B22;
+    color: white;
+}
+
+#failure-section {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+#failure-section .left-side {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-width: 50%;
+    height: 100%;
+    background-image: url("./images/person-1.png");
+    /* background-image: url("./images/person.png"), url("./images/icons/person-bg-circle.png"); */
+    background-position: center left;
+    /* background-position: bottom left, bottom left; */
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+#failure-section .right-side {
+    min-width: 50%;
+    min-height: 300px;
+}
+
+#failure-section .right-side h2 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: normal;
+}
+
+#failure-section .right-side p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#failure-section .right-side ul {
+    list-style: url("./images/icons/tickSign.png");
+}
+
+#failure-section .right-side ul li {
+    line-height: 26px;
+    font-size: 20px;
+}
+
+#plane-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+#plane-section h2 {
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+#plane-section .cards {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#plane-section>div:last-child {
+    padding: 50px;
+    background-image: url("./images/gradient3.png"), url("./images/watch.png");
+    background-size: cover;
+    border-radius: 5px;
+    width: 100%;
+    height: fit-content;
+}
+
+#plane-section>div:last-child h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: normal;
+    color: white;
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+#plane-section>div:last-child button,
+#footer-section .right-side button {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 20px 35px;
+    background: white;
+    color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+}
+
+#footer-section {
+    background-color: #151414;
+    color: white;
+    padding: 10%;
+    display: flex;
+    gap: 20%;
+}
+
+#footer-section .left-side {
+    max-width: 50%;
+}
+
+#footer-section .left-side p {
+    margin: 30px auto;
+    /* width: 90%; */
+    /* text-align: left; */
+}
+
+#footer-section .left-side h3 {
+    font-size: 40px;
+    line-height: normal;
+}
+
+#footer-section .left-side .share-btns {
+    display: flex;
+    gap: 15px;
+}
+
+#footer-section .right-side {
+    width: 50%;
+}
+
+#footer-section .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+#footer-section .right-side h4 {
+    font-size: 25px;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+#footer-section .right-side input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid white;
+    color: #F3F3F3;
+    border-radius: 5px;
+    background: transparent;
+}
